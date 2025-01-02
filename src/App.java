@@ -1,4 +1,7 @@
 import javax.swing.*;
+
+import com.formdev.flatlaf.intellijthemes.*;
+
 import java.awt.*;
 import java.awt.event.*;
 
@@ -7,6 +10,9 @@ public class App {
     JFrame frame = new JFrame("Calculator");
     frame.setSize(new Dimension(500, 500));
     frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+
+    FlatDarkPurpleIJTheme.setup();
+
     //
     // INITIALIZE COMPONENTS
     //
